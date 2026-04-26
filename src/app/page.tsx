@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Home() {
   const profiles = [
-    { id: 1, name: "Ayesha", age: 27, city: "Lahore", bio: "Software Engineer looking for a partner with shared values.", verified: true, image: "/avatars/avatar_1.jpeg" },
-    { id: 2, name: "Zainab", age: 25, city: "Islamabad", bio: "Doctor who loves reading and travelling. Family-oriented.", verified: true, image: "/avatars/avatar_2.jpeg" },
-    { id: 3, name: "Fatima", age: 29, city: "Karachi", bio: "Marketing professional. Value honesty and open communication.", verified: false, image: "/avatars/avatar_3.jpeg" },
-    { id: 4, name: "Hira", age: 26, city: "Lahore", bio: "Architect seeking someone who is ambitious and kind.", verified: true, image: "/avatars/avatar_4.jpeg" },
-    { id: 5, name: "Sana", age: 28, city: "Islamabad", bio: "Teacher, looking for a meaningful and lasting connection.", verified: true, image: "/avatars/avatar_5.jpeg" },
-    { id: 6, name: "Nida", age: 31, city: "Karachi", bio: "Business owner. I appreciate good humor and mutual respect.", verified: false, image: "/avatars/avatar_6.jpeg" },
-    { id: 7, name: "Maha", age: 24, city: "Lahore", bio: "Graphic designer. Let's build a beautiful life together.", verified: true, image: "/avatars/avatar_7.jpeg" },
-    { id: 8, name: "Rida", age: 27, city: "Islamabad", bio: "Dentist. Seeking a life partner who is also a best friend.", verified: true, image: "/avatars/avatar_8.jpeg" },
+    { id: 1, name: "Ayesha", age: 27, city: "Lahore", bio: "Software Engineer who loves late-night drives and trying new cafes.", verified: true, image: "/avatars/avatar_1.jpeg" },
+    { id: 2, name: "Zainab", age: 25, city: "Islamabad", bio: "Doctor by day, concert-goer by night. Looking for someone fun to hang out with.", verified: true, image: "/avatars/avatar_2.jpeg" },
+    { id: 3, name: "Fatima", age: 29, city: "Karachi", bio: "Marketing professional. Always down for spontaneous weekend trips.", verified: false, image: "/avatars/avatar_3.jpeg" },
+    { id: 4, name: "Hira", age: 26, city: "Lahore", bio: "Architect. I know all the best hidden spots in the city. Let's explore together.", verified: true, image: "/avatars/avatar_4.jpeg" },
+    { id: 5, name: "Sana", age: 28, city: "Islamabad", bio: "Teacher with a sarcastic sense of humor. Looking for good vibes only.", verified: true, image: "/avatars/avatar_5.jpeg" },
+    { id: 6, name: "Nida", age: 31, city: "Karachi", bio: "Business owner. Let's grab a drink and see where the night takes us.", verified: false, image: "/avatars/avatar_6.jpeg" },
+    { id: 7, name: "Maha", age: 24, city: "Lahore", bio: "Graphic designer. Art, music, and good food are my love languages.", verified: true, image: "/avatars/avatar_7.jpeg" },
+    { id: 8, name: "Rida", age: 27, city: "Islamabad", bio: "Dentist. Looking for someone to match my energy on weekends.", verified: true, image: "/avatars/avatar_8.jpeg" },
   ];
 
   return (
@@ -20,9 +20,9 @@ export default function Home() {
         <div className="container">
           <div className={styles.hero}>
             <div className={styles.heroContent}>
-              <h1 className={styles.heroTitle}>Find Meaningful Connections</h1>
+              <h1 className={styles.heroTitle}>Match, Chat & Vibe</h1>
               <p className={styles.heroSubtitle}>
-                A trusted matchmaking platform built for serious relationships and lifelong partnerships across Pakistan.
+                A modern dating platform built for fun connections, great dates, and good vibes across Pakistan.
               </p>
               <div className={styles.heroActions}>
                 <Link href="/create-profile" className="btn btn-primary">Create Your Profile</Link>
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <h2>How It Works</h2>
-            <p style={{ marginTop: '1rem', color: 'var(--text-light)' }}>Your journey to finding the right partner, simplified.</p>
+            <p style={{ marginTop: '1rem', color: 'var(--text-light)' }}>Your journey to finding your next great date, simplified.</p>
           </div>
           <div className={styles.stepsGrid}>
             <div className={styles.stepCard}>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <h2>Discover Profiles</h2>
-            <p style={{ marginTop: '1rem', color: 'var(--text-light)' }}>Meet individuals who share your values and vision for the future.</p>
+            <p style={{ marginTop: '1rem', color: 'var(--text-light)' }}>Meet individuals who match your energy and vibe.</p>
           </div>
           <div className={styles.profileGrid}>
             {profiles.map((profile, index) => (
@@ -159,8 +159,8 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className={styles.trustFeatureTitle}>Family Friendly</h3>
-                    <p style={{ color: 'var(--text-light)', fontSize: '0.95rem' }}>Built on cultural values and respect, ideal for both individuals and families seeking a suitable match.</p>
+                    <h3 className={styles.trustFeatureTitle}>Modern Dating</h3>
+                    <p style={{ color: 'var(--text-light)', fontSize: '0.95rem' }}>A fun, secure space designed for modern dating, ensuring you can connect with people safely.</p>
                   </div>
                 </div>
               </div>
@@ -174,18 +174,18 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <h2>Success Stories</h2>
-            <p style={{ marginTop: '1rem', color: 'var(--text-light)' }}>Real connections made through our platform.</p>
+            <p style={{ marginTop: '1rem', color: 'var(--text-light)' }}>Fun dates and great connections made here.</p>
           </div>
           <div className={styles.testimonialGrid}>
             <div className={styles.testimonialCard}>
-              <div className={styles.quoteIcon}>
+               <div className={styles.quoteIcon}>
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                 </svg>
               </div>
-              <p className={styles.testimonialQuote}>"We found each other within weeks of joining. The platform's focus on serious intentions made all the difference."</p>
-              <div className={styles.testimonialAuthor}>Sara & Ali</div>
-              <div className={styles.testimonialMeta}>Married in 2024 (Illustrative)</div>
+              <p className={styles.testimonialQuote}>"We matched and had the absolute best coffee date ever! The vibe was immaculate."</p>
+              <div className={styles.testimonialAuthor}>Sara</div>
+              <div className={styles.testimonialMeta}>Met in Islamabad</div>
             </div>
             <div className={styles.testimonialCard}>
               <div className={styles.quoteIcon}>
@@ -193,7 +193,7 @@ export default function Home() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                 </svg>
               </div>
-              <p className={styles.testimonialQuote}>"The verified profiles and manual review process gave my family the peace of mind they needed."</p>
+              <p className={styles.testimonialQuote}>"The app is super clean and finding people who just want to chill and hang out was easy."</p>
               <div className={styles.testimonialAuthor}>Usman K.</div>
               <div className={styles.testimonialMeta}>Found his match in Lahore</div>
             </div>
@@ -203,9 +203,9 @@ export default function Home() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                 </svg>
               </div>
-              <p className={styles.testimonialQuote}>"I appreciated the clean, respectful interface. It felt like a premium service rather than a dating app."</p>
+              <p className={styles.testimonialQuote}>"I appreciated the casual interface. It felt like a modern dating app without the pressure."</p>
               <div className={styles.testimonialAuthor}>Madiha R.</div>
-              <div className={styles.testimonialMeta}>Engaged</div>
+              <div className={styles.testimonialMeta}>Dating</div>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ export default function Home() {
         <div className="container text-center">
           <h2 style={{ color: 'var(--text-white)', marginBottom: '1.5rem' }}>Start Your Journey Today</h2>
           <p style={{ color: 'rgba(255,255,255,0.9)', marginBottom: '2.5rem', maxWidth: '600px', margin: '0 auto 2.5rem' }}>
-            Join thousands of Pakistanis who are taking a serious, mindful approach to finding their life partner.
+            Join thousands of Pakistanis who are upgrading their dating life and making fun, authentic connections.
           </p>
           <Link href="/create-profile" className="btn" style={{ backgroundColor: 'var(--text-white)', color: 'var(--accent-primary)' }}>Create Profile Now</Link>
         </div>

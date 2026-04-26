@@ -10,20 +10,20 @@ export default function Browse() {
   const [profession, setProfession] = useState('All Professions');
 
   const profiles = [
-    { id: 1, name: "Ayesha", age: 27, city: "Lahore", profession: "Engineering & IT", bio: "Software Engineer looking for a partner with shared values.", verified: true, image: "/avatars/avatar_1.jpeg" },
-    { id: 2, name: "Zainab", age: 25, city: "Islamabad", profession: "Medical & Healthcare", bio: "Doctor who loves reading and travelling. Family-oriented.", verified: true, image: "/avatars/avatar_2.jpeg" },
-    { id: 3, name: "Fatima", age: 29, city: "Karachi", profession: "Business & Finance", bio: "Marketing professional. Value honesty and open communication.", verified: false, image: "/avatars/avatar_3.jpeg" },
-    { id: 4, name: "Hira", age: 26, city: "Lahore", profession: "Engineering & IT", bio: "Architect seeking someone who is ambitious and kind.", verified: true, image: "/avatars/avatar_4.jpeg" },
-    { id: 5, name: "Sana", age: 28, city: "Islamabad", profession: "Education & Arts", bio: "Teacher, looking for a meaningful and lasting connection.", verified: true, image: "/avatars/avatar_5.jpeg" },
-    { id: 6, name: "Nida", age: 31, city: "Karachi", profession: "Business & Finance", bio: "Business owner. I appreciate good humor and mutual respect.", verified: false, image: "/avatars/avatar_6.jpeg" },
-    { id: 7, name: "Maha", age: 24, city: "Lahore", profession: "Education & Arts", bio: "Graphic designer. Let's build a beautiful life together.", verified: true, image: "/avatars/avatar_7.jpeg" },
-    { id: 8, name: "Rida", age: 27, city: "Islamabad", profession: "Medical & Healthcare", bio: "Dentist. Seeking a life partner who is also a best friend.", verified: true, image: "/avatars/avatar_8.jpeg" },
-    { id: 9, name: "Kiran", age: 26, city: "Karachi", profession: "Education & Arts", bio: "Fashion Designer. Looking for an adventurous and caring partner.", verified: true, image: "/avatars/avatar_9.jpeg" },
-    { id: 10, name: "Sadia", age: 30, city: "Lahore", profession: "Business & Finance", bio: "HR Manager. Values family, career balance, and mutual support.", verified: true, image: "/avatars/avatar_10.jpeg" },
-    { id: 11, name: "Iqra", age: 23, city: "Islamabad", profession: "Education & Arts", bio: "Student of Psychology. Enjoys deep conversations and coffee.", verified: false, image: "/avatars/avatar_11.jpeg" },
-    { id: 12, name: "Zara", age: 29, city: "Karachi", profession: "Business & Finance", bio: "Banker. Looking for someone grounded, mature, and supportive.", verified: true, image: "/avatars/avatar_12.jpeg" },
-    { id: 13, name: "Mariam", age: 28, city: "Lahore", profession: "Education & Arts", bio: "Writer. Passionate about art, literature, and finding my soulmate.", verified: true, image: "/avatars/avatar_13.jpeg" },
-    { id: 14, name: "Alizeh", age: 25, city: "Islamabad", profession: "Business & Finance", bio: "Event Planner. Extroverted, bubbly, and ready to settle down.", verified: false, image: "/avatars/avatar_14.jpeg" },
+    { id: 1, name: "Ayesha", age: 27, city: "Lahore", profession: "Engineering & IT", bio: "Software Engineer who loves late-night drives and trying new cafes.", verified: true, image: "/avatars/avatar_1.jpeg" },
+    { id: 2, name: "Zainab", age: 25, city: "Islamabad", profession: "Medical & Healthcare", bio: "Doctor by day, concert-goer by night. Looking for someone fun to hang out with.", verified: true, image: "/avatars/avatar_2.jpeg" },
+    { id: 3, name: "Fatima", age: 29, city: "Karachi", profession: "Business & Finance", bio: "Marketing professional. Always down for spontaneous weekend trips.", verified: false, image: "/avatars/avatar_3.jpeg" },
+    { id: 4, name: "Hira", age: 26, city: "Lahore", profession: "Engineering & IT", bio: "Architect. I know all the best hidden spots in the city. Let's explore together.", verified: true, image: "/avatars/avatar_4.jpeg" },
+    { id: 5, name: "Sana", age: 28, city: "Islamabad", profession: "Education & Arts", bio: "Teacher with a sarcastic sense of humor. Looking for good vibes only.", verified: true, image: "/avatars/avatar_5.jpeg" },
+    { id: 6, name: "Nida", age: 31, city: "Karachi", profession: "Business & Finance", bio: "Business owner. Let's grab a drink and see where the night takes us.", verified: false, image: "/avatars/avatar_6.jpeg" },
+    { id: 7, name: "Maha", age: 24, city: "Lahore", profession: "Education & Arts", bio: "Graphic designer. Art, music, and good food are my love languages.", verified: true, image: "/avatars/avatar_7.jpeg" },
+    { id: 8, name: "Rida", age: 27, city: "Islamabad", profession: "Medical & Healthcare", bio: "Dentist. Looking for someone to match my energy on weekends.", verified: true, image: "/avatars/avatar_8.jpeg" },
+    { id: 9, name: "Kiran", age: 26, city: "Karachi", profession: "Education & Arts", bio: "Fashion Designer. Thrill-seeker. If you like adventures, swipe right.", verified: true, image: "/avatars/avatar_9.jpeg" },
+    { id: 10, name: "Sadia", age: 30, city: "Lahore", profession: "Business & Finance", bio: "HR Manager. Let's skip the small talk and go straight to the fun part.", verified: true, image: "/avatars/avatar_10.jpeg" },
+    { id: 11, name: "Iqra", age: 23, city: "Islamabad", profession: "Education & Arts", bio: "Psychology student. I promise I won't psychoanalyze you on the first date.", verified: false, image: "/avatars/avatar_11.jpeg" },
+    { id: 12, name: "Zara", age: 29, city: "Karachi", profession: "Business & Finance", bio: "Banker. Work hard, play harder. Looking for someone to share a laugh with.", verified: true, image: "/avatars/avatar_12.jpeg" },
+    { id: 13, name: "Mariam", age: 28, city: "Lahore", profession: "Education & Arts", bio: "Writer. Open-minded and easygoing. Let's see if we vibe.", verified: true, image: "/avatars/avatar_13.jpeg" },
+    { id: 14, name: "Alizeh", age: 25, city: "Islamabad", profession: "Business & Finance", bio: "Event Planner. Extroverted, bubbly, and always the life of the party.", verified: false, image: "/avatars/avatar_14.jpeg" },
   ];
 
   const filteredProfiles = profiles.filter(profile => {

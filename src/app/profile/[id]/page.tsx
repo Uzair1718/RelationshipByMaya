@@ -45,30 +45,30 @@ export default function ProfileDetail({ params }: { params: { id: string } }) {
             
             <div style={{ flex: 1 }}>
               <div style={{ marginBottom: '2.5rem' }}>
-                <h3 style={{ marginBottom: '1rem', fontFamily: 'var(--font-inter)', fontSize: '1.4rem', color: 'var(--accent-primary)' }}>Personal Biography</h3>
+                <h3 style={{ marginBottom: '1rem', fontFamily: 'var(--font-inter)', fontSize: '1.4rem', color: 'var(--accent-primary)' }}>About Me</h3>
                 <p style={{ lineHeight: '1.8', fontSize: '1.1rem', color: 'var(--text-dark)' }}>
-                  I am a passionate software engineer working at a multinational tech firm. Coming from a well-educated, progressive yet culturally grounded family, I highly value honesty, open communication, and mutual respect. In my free time, I love immersing myself in classic literature, traveling to discover new cultures, and spending quality time with my loved ones.
+                  I'm a software engineer who spends way too much time staring at screens, so on weekends, I try to stay outside. I love discovering new underground cafes, pretending I know how to paint, and arguing about movie plot holes. I'm usually the designated DJ on road trips and I make a mean cup of chai.
                 </p>
               </div>
 
               <div style={{ marginBottom: '2.5rem' }}>
-                <h3 style={{ marginBottom: '1rem', fontFamily: 'var(--font-inter)', fontSize: '1.4rem', color: 'var(--accent-primary)' }}>Partner Expectations</h3>
+                <h3 style={{ marginBottom: '1rem', fontFamily: 'var(--font-inter)', fontSize: '1.4rem', color: 'var(--accent-primary)' }}>What I'm Looking For</h3>
                 <p style={{ lineHeight: '1.8', fontSize: '1.1rem', color: 'var(--text-dark)' }}>
-                  I am seeking a supportive, intellectually curious partner who is ambitious in his career yet grounded in his family values. Someone who understands the delicate balance between modern professional life and traditional respect. Emotional maturity and a good sense of humor are essential.
+                  Someone to grab coffee with, explore the city, and share a good laugh. I'm looking for casual vibes, good energy, and someone who doesn't take themselves too seriously. Bonus points if you know the best street food spots in town.
                 </p>
               </div>
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', backgroundColor: 'var(--bg-secondary)', padding: '1.5rem', borderRadius: 'var(--radius-soft)' }}>
                  <div><strong style={{ color: 'var(--text-light)' }}>Height:</strong> 5' 6"</div>
-                 <div><strong style={{ color: 'var(--text-light)' }}>Marital Status:</strong> Never Married</div>
+                 <div><strong style={{ color: 'var(--text-light)' }}>Vibe:</strong> Extroverted</div>
                  <div><strong style={{ color: 'var(--text-light)' }}>Education:</strong> Masters (MSc)</div>
-                 <div><strong style={{ color: 'var(--text-light)' }}>Religion:</strong> Sunni</div>
+                 <div><strong style={{ color: 'var(--text-light)' }}>Drinks:</strong> Socially</div>
               </div>
             </div>
 
             <div style={{ display: 'flex', gap: '1.5rem', marginTop: '3rem' }}>
-              <button className="btn btn-primary" style={{ flex: 1, padding: '1.2rem', fontSize: '1.1rem' }}>Express Interest</button>
-              <button className="btn btn-outline" style={{ flex: 1, padding: '1.2rem', fontSize: '1.1rem' }}>Initiate Contact</button>
+              <button className="btn btn-primary" style={{ flex: 1, padding: '1.2rem', fontSize: '1.1rem' }}>Send a Like</button>
+              <button className="btn btn-outline" style={{ flex: 1, padding: '1.2rem', fontSize: '1.1rem' }}>Say Hi</button>
             </div>
 
           </div>
@@ -76,7 +76,7 @@ export default function ProfileDetail({ params }: { params: { id: string } }) {
 
         {/* Security Notice */}
         <div style={{ textAlign: 'center', color: 'var(--text-light)', fontSize: '0.9rem', maxWidth: '600px', margin: '0 auto' }}>
-          <p style={{ marginBottom: '0.5rem' }}>Your interactions are strictly confidential and encrypted.</p>
+          <p style={{ marginBottom: '0.5rem' }}>Keep interactions fun and respectful.</p>
           <button style={{ color: 'var(--text-light)', textDecoration: 'underline', background: 'none', border: 'none', cursor: 'pointer' }}>Report this profile</button>
         </div>
 

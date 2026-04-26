@@ -21,7 +21,7 @@ export default function Privacy() {
               Uncompromising Data Privacy
             </h2>
             <p style={{ lineHeight: '1.8', fontSize: '1.1rem', color: 'var(--text-dark)' }}>
-              We adhere to strict data protection principles. We only collect information essential for curating meaningful matches. Your most sensitive details—including phone numbers, email addresses, and exact locations—are encrypted and NEVER shared with other users, third parties, or advertisers without your explicit, opt-in consent.
+              We adhere to strict data protection principles. We only collect information essential for curating great matches. Your most sensitive details—including phone numbers, email addresses, and exact locations—are encrypted and NEVER shared with other users, third parties, or advertisers without your explicit, opt-in consent.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function Privacy() {
               Granular Photo Control
             </h2>
             <p style={{ lineHeight: '1.8', fontSize: '1.1rem', color: 'var(--text-dark)' }}>
-              We understand the cultural importance of discretion regarding personal photos. You have absolute control over who views your imagery. Our platform allows you to:
+              We know that putting yourself out there requires trust. You have absolute control over who views your imagery. Our platform allows you to:
             </p>
             <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem', lineHeight: '1.8', fontSize: '1.1rem', color: 'var(--text-dark)' }}>
               <li>Keep your photos blurred to the general public.</li>
@@ -52,7 +52,7 @@ export default function Privacy() {
               Rigorous Manual Verification
             </h2>
             <p style={{ lineHeight: '1.8', fontSize: '1.1rem', color: 'var(--text-dark)' }}>
-              Automated systems are not enough when it comes to lifelong commitments. Every single profile created on Relation by Maya undergoes a meticulous manual review by our dedicated team. We verify identities through direct phone contact and government ID cross-referencing, completely eradicating fake profiles and ensuring a secure ecosystem.
+              Automated systems are not enough when it comes to keeping a dating app safe. Every single profile created on Relation by Maya undergoes a meticulous manual review by our dedicated team. We verify identities through direct phone contact and government ID cross-referencing, completely eradicating fake profiles and ensuring a secure ecosystem.
             </p>
           </div>
 
