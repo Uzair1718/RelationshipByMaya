@@ -1,4 +1,5 @@
 export default function About() {
+  return (
     <main style={{ padding: '6rem 0', minHeight: '100vh', backgroundColor: 'var(--bg-primary)' }}>
       <div className="container" style={{ maxWidth: '900px' }}>
         
